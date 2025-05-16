@@ -36,3 +36,20 @@ void main() {
         printf("Pattern not found!");
   }
 }
+
+
+/*OUTPUT
+Enter size of Array:5
+Enter elements:
+4
+8
+1
+9
+3
+Array:
+4 8 1 9 3 
+Enter size of Pattern:2
+Enter elements:
+1
+9
+Pattern found at index 2 */
