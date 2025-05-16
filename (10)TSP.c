@@ -42,3 +42,19 @@ int main() {
     printf("The minimum cost to visit all cities is: %d\n", result);
     return 0;
 }
+
+
+
+/*OUTPUT
+Enter the number of cities: 3
+Enter the distance matrix:
+34
+5
+8
+2
+98
+3
+61
+10
+66
+The minimum cost to visit all cities is: 20 */
