@@ -28,3 +28,14 @@ int main()
     }
     return 0;
 }
+
+
+/*OUTPUT
+Enter size of array: 5
+Enter array elements: 3
+8
+6
+2
+0
+Sorted array:
+0 2 3 6 8 */
