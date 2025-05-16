@@ -30,3 +30,17 @@ void main() {
   }
 }
 
+
+
+/*OUTPUT
+Enter size of Array:5
+Enter elements:
+2
+5
+1
+8
+9
+Unsorted Array:
+2 5 1 8 9 
+Sorted Array:
+1 2 5 8 9 */
