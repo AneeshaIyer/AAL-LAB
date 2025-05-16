@@ -25,3 +25,16 @@ void main() {
     printf("%d ",a[i]);
   }
 }
+
+
+/*OUTPUT
+Enter size of Array:4
+Enter elements:
+3
+9
+2
+6
+Unsorted Array:
+3 9 2 6 
+Sorted Array:
+2 3 6 9 */
