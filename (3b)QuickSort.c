@@ -26,12 +26,22 @@ void main(){
 	printf("Enter size of array:");
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
-		printf("\nEnter element:");
+		printf("Enter element:");
 		scanf("%d",&a[i]);	
 	}
 	quicksort(a,0,n-1);
-	printf("Sorted array");
+	printf("Sorted array:");
 	for(i=0;i<n;i++){
 		printf("%d",a[i]);
 	}
 }
+
+
+/*OUTPUT
+Enter size of array:5
+Enter element:3
+Enter element:6
+Enter element:2
+Enter element:8
+Enter element:1
+Sorted array:12368 */
