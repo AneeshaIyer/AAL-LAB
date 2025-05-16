@@ -32,7 +32,7 @@ void main(){
 	quicksort(a,0,n-1);
 	printf("Sorted array:");
 	for(i=0;i<n;i++){
-		printf("%d",a[i]);
+		printf("%d ",a[i]);
 	}
 }
 
@@ -44,4 +44,4 @@ Enter element:6
 Enter element:2
 Enter element:8
 Enter element:1
-Sorted array:12368 */
+Sorted array:1 2 3 6 8 */
