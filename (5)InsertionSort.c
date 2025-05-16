@@ -12,19 +12,19 @@ void insertionSort(int arr[], int n)
         arr[j + 1] = key;
     }
 }
-void printArray(int arr[], int n)
-{
-	int i;
-    for (i = 0; i < n; ++i)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
 int main()
 {
-    int arr[] = { 12, 11, 13, 5, 6 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-
+    int arr[100],i,n;
+    printf("Enter size of array: ");
+    scanf("%d",&n);
+    printf("Enter array elements: ");
+    for (i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
     insertionSort(arr, n);
-    printArray(arr, n);
+    printf("Sorted array:\n");
+    for (i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
     return 0;
 }
